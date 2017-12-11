@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\touchBoard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxTouchBoard\src\ofxTouchBoard.cpp">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxTouchBoard\src\Serial.cpp">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxTouchBoard\src\util.cpp">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCsv\src\ofxCsv.cpp">
+      <Filter>addons\ofxCsv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCsv\src\ofxCsvRow.cpp">
+      <Filter>addons\ofxCsv\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{a42a2608-d291-4a3a-b224-6441ce5ece9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxTouchBoard">
+      <UniqueIdentifier>{506a35f2-f97c-491f-afd6-c90fbb67c307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxTouchBoard\src">
+      <UniqueIdentifier>{55f2c36b-d537-418d-a537-4fc7f6265952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCsv">
+      <UniqueIdentifier>{9a104d04-9ae0-473f-b4ca-36b9da2550e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCsv\src">
+      <UniqueIdentifier>{af8aeea3-8498-4b62-af54-eaa18fcbc20f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\touchBoard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxTouchBoard\src\ofxTouchBoard.h">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxTouchBoard\src\Serial.h">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxTouchBoard\src\util.h">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxTouchBoard\src\defs.h">
+      <Filter>addons\ofxTouchBoard\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCsv\src\ofxCsv.h">
+      <Filter>addons\ofxCsv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCsv\src\ofxCsvRow.h">
+      <Filter>addons\ofxCsv\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
